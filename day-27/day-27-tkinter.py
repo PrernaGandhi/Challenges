@@ -7,6 +7,7 @@ window.config(padx=20,pady=20)
 
 # Label
 my_label = tkinter.Label(text="I am a label", font=("Arial", 24, "bold"))
+my_label.config(padx=30,pady=30)
 # this is going to place the label on the screen
 # without this we won't be able to see the label
 # side = "bottom", "left", "right", "top" decides the position of the label
